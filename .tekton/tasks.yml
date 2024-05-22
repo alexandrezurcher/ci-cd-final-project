@@ -38,7 +38,7 @@ spec:
 apiVersion: tekton.dev/v1beta1
 kind: Task
 metadata:
-  name: Nose
+  name: nose
 spec:
   workspaces:
     - name: source
